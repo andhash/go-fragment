@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "steps": [
+    {"method": "updatePremiumState", "status": 200, "body": {"ok": true}},
+    {"method": "searchPremiumGiftRecipient", "status": 200, "body": {"found": {"recipient": "premium-token", "name": "Ada"}}},
+    {"method": "initGiftPremiumRequest", "status": 200, "body": {"req_id": "req-premium-1", "amount": "0.5"}},
+    {"method": "getGiftPremiumLink", "status": 200, "body": {"transaction": {"validUntil": 1893456000, "from": "@account", "messages": [{"address": "EQAGpMCtSbubdXHzw5wBaAt4Mm9tlvthnHUzqIMcmfdyIQ8s", "amount": "500000000"}]}}}
+  ]
+}

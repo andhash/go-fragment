@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "steps": [
+    {"method": "updateStarsBuyState", "status": 200, "body": {"ok": true}},
+    {"method": "searchStarsRecipient", "status": 200, "body": {"found": {"recipient": "recipient-token", "name": "Ada"}}},
+    {"method": "initBuyStarsRequest", "status": 200, "body": {"req_id": "req-stars-1", "amount": "0.5"}},
+    {"method": "getBuyStarsLink", "status": 200, "body": {"transaction": {"validUntil": 1893456000, "from": "@account", "messages": [{"address": "EQAGpMCtSbubdXHzw5wBaAt4Mm9tlvthnHUzqIMcmfdyIQ8s", "amount": "500000000"}]}}}
+  ]
+}
